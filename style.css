@@ -87,7 +87,7 @@ header h2 {
 }
 
 .control .btn {
-    color: #fff;
+    color: var(--primary-color);
     padding: 18px;
     font-size: 18px;
 }
