@@ -106,6 +106,12 @@ const app = {
         path: "./assets/music/song13.mp3",
         image: "./assets/img/song13.jpg"
       },
+      {
+        name: "Bỏ Em Vào Balo",
+        singer: "Hương Ly",
+        path: "./assets/music/song14.mp3",
+        image: "./assets/img/song14.jpg"
+      },
   ],
   setConfig: function (key, value) {
     this.config[key] = value;
