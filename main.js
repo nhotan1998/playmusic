@@ -104,7 +104,7 @@ const app = {
         name: "Anh Có Thể Nào Đừng Rời Xa Em",
         singer: " 你能不能不要离开我",
         path: "./assets/music/song13.mp3",
-        image: "./assets/img/song13.jpg"
+        image: "./assets/img/song13.jpeg"
       },
   ],
   setConfig: function (key, value) {
