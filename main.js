@@ -112,6 +112,12 @@ const app = {
         path: "./assets/music/song14.mp3",
         image: "./assets/img/song14.jpg"
       },
+      {
+        name: "Cưới Đi",
+        singer: "2T x ChangC",
+        path: "./assets/music/song15.mp3",
+        image: "./assets/img/song15.jpg"
+      },
   ],
   setConfig: function (key, value) {
     this.config[key] = value;
