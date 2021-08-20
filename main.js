@@ -100,6 +100,12 @@ const app = {
         path: "./assets/music/song12.mp3",
         image: "./assets/img/song12.jpg"
       },
+      {
+        name: "Anh Có Thể Nào Đừng Rời Xa Em",
+        singer: " 你能不能不要离开我",
+        path: "./assets/music/song13.mp3",
+        image: "./assets/img/song13.jpg"
+      },
   ],
   setConfig: function (key, value) {
     this.config[key] = value;
