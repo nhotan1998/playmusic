@@ -19,8 +19,12 @@ const randomBtn = $(".btn-random");
 const repeatBtn = $(".btn-repeat");
 const playlist = $(".playlist");
 const time = $('#time');
-const timeDuration = $('#duration');
+const Duration = $('#duration');
+const timeCurrent = $('#timeCurrent');
 const dot = $('.dot');
+const timeDuration = $('#timeDuration');
+const dash = $('.dash');
+const mark = $('.mark');
 
 const app = {
   currentIndex: 0,
@@ -207,15 +211,21 @@ const app = {
     // When the song progress changes
     audio.ontimeupdate = function () {
       if (audio.duration) {
-        const progressPercent = Math.floor(
-          (audio.currentTime / audio.duration) * 100
-        );
-        progress.value = progressPercent;
-	const minutes = audio.duration/60;
-        const times =  audio.currentTime/60;
-        time.innerHTML = times.toFixed(1);
-        timeDuration.innerHTML = minutes.toFixed(1);
-        dot.style.display = "inline-block";
+               const progressPercent = Math.floor(
+                (audio.currentTime / audio.duration) * 100
+              );
+              progress.value = progressPercent;
+              const minutes = audio.duration/60;
+              const milisecond = minutes*10;
+              const times =  audio.currentTime/60;
+              const timeCurrents = (times*10);
+              timeCurrent.innerHTML = timeCurrents.toFixed(); 
+              time.innerHTML = times.toFixed();
+              Duration.innerHTML = minutes.toFixed();
+              timeDuration.innerHTML = milisecond.toFixed();
+              dot.style.display = "inline-block";
+              dash.style.display = "inline-block";
+              mark.style.display = "inline-block";
       }
     };
 

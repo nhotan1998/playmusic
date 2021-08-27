@@ -109,14 +109,17 @@ header h2 {
 }
 
 #time,
-#duration {
+#duration,
+#timeCurrent,
+#timeDuration {
     font-weight: bold;
     color: #fff;
 }
-.dot {
+.dot,.dash ,.mark{
     display: none;
     color: #fff;
 }
+
 
 .progress {
     width: 100%;
