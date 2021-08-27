@@ -108,6 +108,15 @@ header h2 {
     background-color: var(--primary-color);
 }
 
+#time,
+#duration {
+    font-weight: bold;
+    color: var(--text-color);
+}
+.dot {
+    display: none;
+}
+
 .progress {
     width: 100%;
     -webkit-appearance: none;

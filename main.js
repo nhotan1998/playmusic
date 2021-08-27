@@ -18,6 +18,9 @@ const nextBtn = $(".btn-next");
 const randomBtn = $(".btn-random");
 const repeatBtn = $(".btn-repeat");
 const playlist = $(".playlist");
+const time = $('#time');
+const timeDuration = $('#duration');
+const dot = $('.dot');
 
 const app = {
   currentIndex: 0,
@@ -208,6 +211,11 @@ const app = {
           (audio.currentTime / audio.duration) * 100
         );
         progress.value = progressPercent;
+	const minutes = audio.duration/60;
+        const times =  audio.currentTime/60;
+        time.innerHTML = times.toFixed(1);
+        timeDuration.innerHTML = minutes.toFixed(1);
+        dot.style.display = "inline-block";
       }
     };
 
