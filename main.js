@@ -36,6 +36,12 @@ const app = {
   // config: JSON.parse(localStorage.getItem(PlAYER_STORAGE_KEY)) || {},
   songs: [
     {
+      name: "Hyehwadong",
+      singer: "Park Boram",
+      path: "./assets/music/song0.mp3",
+      image: "./assets/img/song0.jpg"
+    },
+    {
       name: "Mood",
       singer: "24Kgoldn",
       path: "./assets/music/song1.mp3",
