@@ -131,6 +131,12 @@ const app = {
         path: "./assets/music/song15.mp3",
         image: "./assets/img/song15.jpg"
       },
+      {
+        name: "Ái Nộ",
+        singer: "Masew x Khoi Vu",
+        path: "./assets/music/song16.mp3",
+        image: "./assets/img/song16.jpg"
+       }
   ],
   setConfig: function (key, value) {
     this.config[key] = value;
