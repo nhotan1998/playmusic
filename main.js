@@ -36,6 +36,24 @@ const app = {
   // config: JSON.parse(localStorage.getItem(PlAYER_STORAGE_KEY)) || {},
   songs: [
     {
+      name: "Em Là Con Thuyền Lênh Đênh",
+      singer: "Thái Học",
+      path: "./assets/music/song19.mp3",
+      image: "./assets/img/song19.jpg"
+    },
+    {
+      name: "Đưa Nhau Đi Trốn",
+      singer: "Đen ft Linh Cáo",
+      path: "./assets/music/song18.mp3",
+      image: "./assets/img/song18.jpg"
+    },
+    {
+      name: "Cưới Thôi",
+      singer: "Masiu x Masew",
+      path: "./assets/music/song17.mp3",
+      image: "./assets/img/song17.jpg"
+    },
+    {
       name: "Hyehwadong",
       singer: "Park Boram",
       path: "./assets/music/song0.mp3",
